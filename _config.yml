@@ -1,1 +1,37 @@
 remote_theme: chrisrhymes/mere-blog-theme
+title: Lambdacore
+tagline: Lambdacore Blog
+url: "https://www.lambdacore.dev"
+permalink: pretty
+
+paginate: 6
+paginate_path: "/page:num"
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
+  - kramdown
+  - rouge
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      author: "Alfonso Roa"
+      layout: post
+      #image: /img/home.jpg
+      show_sidebar: true
+  -
+    scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+
+collections:
+  authors:
+    output: true
