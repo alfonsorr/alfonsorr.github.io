@@ -1,5 +1,8 @@
 ---
 layout: homepage
+title: Lambdacore
+subtitle: Functional programming for all
+hero_height: is-large
 ---
 
 ## Welcome to Alfonso's page
