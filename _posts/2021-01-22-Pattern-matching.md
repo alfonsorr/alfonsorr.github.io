@@ -43,16 +43,17 @@ stringExample match {
     case "adios" => "hasta pronto"
 }
 ```
-
-cmd4.sc:3: patterns after a variable pattern cannot match (SLS 8.1.1)
-    case _ => "???"
-            ^cmd4.sc:4: unreachable code due to variable pattern on line 3
-    case "hola" => "saludos"
-                    ^cmd4.sc:5: unreachable code due to variable pattern on line 3
-    case "adios" => "hasta pronto"
-                    ^cmd4.sc:4: unreachable code
-    case "hola" => "saludos"
+```
+cmd4.sc:3: patterns after a variable pattern cannot match (SLS 8.1.1)  
+    case _ => "???"  
+            ^cmd4.sc:4: unreachable code due to variable pattern on line 3  
+    case "hola" => "saludos"  
+                    ^cmd4.sc:5: unreachable code due to variable pattern on line 3  
+    case "adios" => "hasta pronto"  
+                    ^cmd4.sc:4: unreachable code  
+    case "hola" => "saludos"  
                     ^
+```
 
 
 
@@ -310,7 +311,7 @@ def matchfun(x: Any): String =
 
 
 
-    defined <span style="color:green">function</span> <span style="color:cyan">matchfun</span>  
+defined <span style="color:green">function</span> <span style="color:cyan">matchfun</span>  
 
 
 
@@ -345,7 +346,7 @@ def matchfun2(x: Any): String =
 
 
 
-    defined <span style="color:green">function</span> <span style="color:cyan">matchfun2</span>  
+defined <span style="color:green">function</span> <span style="color:cyan">matchfun2</span>  
 
 
 
@@ -380,19 +381,19 @@ def matchfun2(x: List[Any]): String =
      case _ => "es otro tipo de lista"
  }
 ```
+```
+cmd18.sc:3: non-variable type argument String in type pattern List[String] (the underlying of List[String]) is unchecked since it is eliminated by erasure
+        case x: List[String] => s"tengo una lista de string de longitud ${x.size}"
+                ^cmd18.sc:4: non-variable type argument Int in type pattern List[Int] (the underlying of List[Int]) is unchecked since it is eliminated by erasure
+        case x: List[Int] => s"tengo una lista de integer de longitud ${x.size}"
+                ^cmd18.sc:4: unreachable code
+        case x: List[Int] => s"tengo una lista de integer de longitud ${x.size}"
+                            ^
+```
 
-    cmd18.sc:3: non-variable type argument String in type pattern List[String] (the underlying of List[String]) is unchecked since it is eliminated by erasure
-         case x: List[String] => s"tengo una lista de string de longitud ${x.size}"
-                 ^cmd18.sc:4: non-variable type argument Int in type pattern List[Int] (the underlying of List[Int]) is unchecked since it is eliminated by erasure
-         case x: List[Int] => s"tengo una lista de integer de longitud ${x.size}"
-                 ^cmd18.sc:4: unreachable code
-         case x: List[Int] => s"tengo una lista de integer de longitud ${x.size}"
-                              ^
 
 
-
-
-    defined <span style="color:green">function</span> <span style="color:cyan">matchfun2</span>  
+defined <span style="color:green">function</span> <span style="color:cyan">matchfun2</span>  
 
 
 
@@ -426,7 +427,7 @@ case class Usuario(nombre: String, edad: Int)
 
 
 
-    defined <span style="color:green">class</span> <span style="color:cyan">Usuario</span>  
+defined <span style="color:green">class</span> <span style="color:cyan">Usuario</span>  
 
 
 
@@ -442,9 +443,9 @@ case class Jefe(nombre: String, subordinados: List[Trabajador]) extends Trabajad
 
 
 
-    defined <span style="color:green">trait</span> <span style="color:cyan">Trabajador</span>  
-    defined <span style="color:green">class</span> <span style="color:cyan">Currito</span>  
-    defined <span style="color:green">class</span> <span style="color:cyan">Jefe</span>  
+defined <span style="color:green">trait</span> <span style="color:cyan">Trabajador</span>  
+defined <span style="color:green">class</span> <span style="color:cyan">Currito</span>  
+defined <span style="color:green">class</span> <span style="color:cyan">Jefe</span>  
 
 
 
@@ -470,8 +471,8 @@ o match {
 
 
 
-    defined <span style="color:green">function</span> <span style="color:cyan">quienEs</span>  
-    defined <span style="color:green">function</span> <span style="color:cyan">tengoDato</span>  
+defined <span style="color:green">function</span> <span style="color:cyan">quienEs</span>  
+defined <span style="color:green">function</span> <span style="color:cyan">tengoDato</span>  
 
 
 
@@ -512,7 +513,7 @@ def tuplaMatch(x: (String, Int)): String =
 
 
 
-    defined <span style="color:green">function</span> <span style="color:cyan">tuplaMatch</span>  
+defined <span style="color:green">function</span> <span style="color:cyan">tuplaMatch</span>  
 
 
 
@@ -564,7 +565,7 @@ def tuplaMatch2(x: (String, Int)): String =
 
 
 
-    defined <span style="color:green">function</span> <span style="color:cyan">tuplaMatch2</span>  
+defined <span style="color:green">function</span> <span style="color:cyan">tuplaMatch2</span>  
 
 
 
@@ -619,7 +620,7 @@ def tuplaAnyMatch(x: (Any, Any)): String =
 
 
 
-    defined <span style="color:green">function</span> <span style="color:cyan">tuplaAnyMatch</span>  
+defined <span style="color:green">function</span> <span style="color:cyan">tuplaAnyMatch</span>  
 
 
 
@@ -653,9 +654,9 @@ case class Jefe(nombre: String, subordinados: List[Trabajador]) extends Trabajad
 
 
 
-    defined <span style="color:green">trait</span> <span style="color:cyan">Trabajador</span>  
-    defined <span style="color:green">class</span> <span style="color:cyan">Currito</span>  
-    defined <span style="color:green">class</span> <span style="color:cyan">Jefe</span>  
+defined <span style="color:green">trait</span> <span style="color:cyan">Trabajador</span>  
+defined <span style="color:green">class</span> <span style="color:cyan">Currito</span>  
+defined <span style="color:green">class</span> <span style="color:cyan">Jefe</span>  
 
 
 
@@ -675,7 +676,7 @@ def dibujaJerarquia(t:Trabajador, nivel: Int = 0):Unit = {
 
 
 
-    defined <span style="color:green">function</span> <span style="color:cyan">dibujaJerarquia</span>  
+defined <span style="color:green">function</span> <span style="color:cyan">dibujaJerarquia</span>  
 
 
 
@@ -740,7 +741,7 @@ object ValidIntString { // creamos el objeto que permitirá extraer el string si
 
 
 
-    defined <span style="color:green">object</span> <span style="color:cyan">ValidIntString</span>  
+defined <span style="color:green">object</span> <span style="color:cyan">ValidIntString</span>  
 
 
 
@@ -785,7 +786,7 @@ object ValidIntStringWithDouble { // creamos el objeto que permitirá extraer el
 
 
 
-    defined <span style="color:green">object</span> <span style="color:cyan">ValidIntStringWithDouble</span>  
+defined <span style="color:green">object</span> <span style="color:cyan">ValidIntStringWithDouble</span>  
 
 
 
@@ -834,7 +835,7 @@ object SplitDecimals { // creamos el objeto que permitirá extraer el string si 
 
 
 
-    defined <span style="color:green">object</span> <span style="color:cyan">SplitDecimals</span>  
+defined <span style="color:green">object</span> <span style="color:cyan">SplitDecimals</span>  
 
 
 
@@ -882,7 +883,7 @@ object IsEaven {
 
 
 
-    defined <span style="color:green">object</span> <span style="color:cyan">IsEaven</span>  
+defined <span style="color:green">object</span> <span style="color:cyan">IsEaven</span>  
 
 
 
@@ -919,7 +920,7 @@ case class GreaterThan(c: Int) {
 
 
 
-    defined <span style="color:green">class</span> <span style="color:cyan">GreaterThan</span>  
+defined <span style="color:green">class</span> <span style="color:cyan">GreaterThan</span>  
 
 
 
@@ -970,7 +971,7 @@ val fecha = raw"(\d{4})-(\d{2})-(\d{2})".r
 
 
 <span style="color:cyan">fecha</span>: <span style="color:green">scala</span>.<span style="color:green">util</span>.<span style="color:green">matching</span>.<span style="color:green">Regex</span> = (\d{4})-(\d{2})-(\d{2})
-<span style="color:cyan">res45_1</span>: <span style="color:green">String</span> = <span style="color:green">"a\u00f1o: 2004, mes: 01, dia: 20"</span>  
+<span style="color:cyan">res45_1</span>: <span style="color:green">String</span> = <span style="color:green">"año: 2004, mes: 01, dia: 20"</span>  
 <span style="color:cyan">res45_2</span>: <span style="color:green">String</span> = <span style="color:green">"no es una fecha"</span>  
 
 
@@ -1028,7 +1029,7 @@ val fecha = raw"(\d{4})-(\d{2})-(\d{2})".r
 
 
 <span style="color:cyan">fecha</span>: <span style="color:green">scala</span>.<span style="color:green">util</span>.<span style="color:green">matching</span>.<span style="color:green">Regex</span> = (\d{4})-(\d{2})-(\d{2})
-<span style="color:cyan">res47_1</span>: <span style="color:green">String</span> = <span style="color:green">"a\u00f1o: 2004, mes: 01, dia: 20 original 2004-01-20"</span>  
+<span style="color:cyan">res47_1</span>: <span style="color:green">String</span> = <span style="color:green">"año: 2004, mes: 01, dia: 20 original 2004-01-20"</span>  
 
 
 
@@ -1069,7 +1070,7 @@ dateStr match {
 <span style="color:cyan">fecha</span>: <span style="color:green">scala</span>.<span style="color:green">util</span>.<span style="color:green">matching</span>.<span style="color:green">Regex</span> = (\d{4})-(\d{2})-(\d{2})
 <span style="color:cyan">anio19xx</span>: <span style="color:green">scala</span>.<span style="color:green">util</span>.<span style="color:green">matching</span>.<span style="color:green">Regex</span> = 19(\d{2})
 <span style="color:cyan">anioEspecial</span>: <span style="color:green">String</span> = <span style="color:green">"2001"</span>  
-    defined <span style="color:green">function</span> <span style="color:cyan">queDiaEs</span>  
+defined <span style="color:green">function</span> <span style="color:cyan">queDiaEs</span>  
 
 
 
@@ -1089,14 +1090,14 @@ queDiaEs("2021")
 
 
 
-<span style="color:cyan">res49_0</span>: <span style="color:green">String</span> = <span style="color:green">"mi a\u00f1o especial :D"</span>  
-<span style="color:cyan">res49_1</span>: <span style="color:green">String</span> = <span style="color:green">"feliz a\u00f1o nuevo!"</span>  
-<span style="color:cyan">res49_2</span>: <span style="color:green">String</span> = <span style="color:green">"es a\u00f1o bisiesto 2020-02-29"</span>  
+<span style="color:cyan">res49_0</span>: <span style="color:green">String</span> = <span style="color:green">"mi año especial :D"</span>  
+<span style="color:cyan">res49_1</span>: <span style="color:green">String</span> = <span style="color:green">"feliz año nuevo!"</span>  
+<span style="color:cyan">res49_2</span>: <span style="color:green">String</span> = <span style="color:green">"es año bisiesto 2020-02-29"</span>  
 <span style="color:cyan">res49_3</span>: <span style="color:green">String</span> = <span style="color:green">"eso es muy viejo"</span>  
 <span style="color:cyan">res49_4</span>: <span style="color:green">String</span> = <span style="color:green">"eso es muy viejo"</span>  
 <span style="color:cyan">res49_5</span>: <span style="color:green">String</span> = <span style="color:green">"la fecha es capicua 20200202"</span>  
-<span style="color:cyan">res49_6</span>: <span style="color:green">String</span> = <span style="color:green">"03 del 02 del a\u00f1o 95"</span>  
-<span style="color:cyan">res49_7</span>: <span style="color:green">String</span> = <span style="color:green">"a\u00f1o: 2021, mes: 31, dia: 10"</span>  
+<span style="color:cyan">res49_6</span>: <span style="color:green">String</span> = <span style="color:green">"03 del 02 del año 95"</span>  
+<span style="color:cyan">res49_7</span>: <span style="color:green">String</span> = <span style="color:green">"año: 2021, mes: 31, dia: 10"</span>  
 <span style="color:cyan">res49_8</span>: <span style="color:green">String</span> = <span style="color:green">"no es una fecha"</span>  
 
 
@@ -1113,16 +1114,16 @@ o match {
     case None => "no tenemos valor"
 }
 ```
+```
+cmd50.sc:2: match may not be exhaustive.
+It would fail on the following input: Some((x: Int forSome x not in 0))
+o match {
+^
+```
 
-    cmd50.sc:2: match may not be exhaustive.
-    It would fail on the following input: Some((x: Int forSome x not in 0))
-    o match {
-    ^
 
 
-
-
-    defined <span style="color:green">function</span> <span style="color:cyan">tengoDato</span>  
+defined <span style="color:green">function</span> <span style="color:cyan">tengoDato</span>  
 
 
 
@@ -1133,13 +1134,13 @@ Ya vemos en este caso que solo con la definición ya nos advierte el compilador 
 tengoDato(Some(1))
 ```
 
-
-    scala.MatchError: Some(1) (of class scala.Some)
-      ammonite.$sess.cmd50$Helper.tengoDato(cmd50.sc:2)
-      ammonite.$sess.cmd51$Helper.<init>(cmd51.sc:1)
-      ammonite.$sess.cmd51$.<init>(cmd51.sc:7)
-      ammonite.$sess.cmd51$.<clinit>(cmd51.sc:-1)
-
+```
+scala.MatchError: Some(1) (of class scala.Some)
+    ammonite.$sess.cmd50$Helper.tengoDato(cmd50.sc:2)
+    ammonite.$sess.cmd51$Helper.<init>(cmd51.sc:1)
+    ammonite.$sess.cmd51$.<init>(cmd51.sc:7)
+    ammonite.$sess.cmd51$.<clinit>(cmd51.sc:-1)
+```
 
 Obtenemos un error en la ejecución de tipo `scala.MatchError`. Y ya hemos dicho que esto en scala hay que evitarlo siempre que sea posible.
 
@@ -1159,7 +1160,7 @@ o match {
 
 
 
-    defined <span style="color:green">function</span> <span style="color:cyan">noExhaustivo</span>  
+defined <span style="color:green">function</span> <span style="color:cyan">noExhaustivo</span>  
 
 
 
@@ -1170,13 +1171,13 @@ noExhaustivo(1)
 noExhaustivo(2)
 ```
 
-
-    scala.MatchError: 2 (of class java.lang.Integer)
-      ammonite.$sess.cmd52$Helper.noExhaustivo(cmd52.sc:2)
-      ammonite.$sess.cmd53$Helper.<init>(cmd53.sc:3)
-      ammonite.$sess.cmd53$.<init>(cmd53.sc:7)
-      ammonite.$sess.cmd53$.<clinit>(cmd53.sc:-1)
-
+```
+scala.MatchError: 2 (of class java.lang.Integer)
+    ammonite.$sess.cmd52$Helper.noExhaustivo(cmd52.sc:2)
+    ammonite.$sess.cmd53$Helper.<init>(cmd53.sc:3)
+    ammonite.$sess.cmd53$.<init>(cmd53.sc:7)
+    ammonite.$sess.cmd53$.<clinit>(cmd53.sc:-1)
+```
 
 Por lo que es siempre recomendable poner un caso por defecto (`case _ => `) que lo evite si estamos haciendo match sobre un elemento primitivo o clases que no sean ADTs.
 
@@ -1361,15 +1362,15 @@ foo.map{
     val res60_1 = foo.map{
                          ^
 
-
-    scala.MatchError: None (of class scala.None$)
-      ammonite.$sess.cmd60$Helper.$anonfun$res60_1$1(cmd60.sc:3)
-      ammonite.$sess.cmd60$Helper.$anonfun$res60_1$1$adapted(cmd60.sc:3)
-      scala.collection.immutable.List.map(List.scala:297)
-      ammonite.$sess.cmd60$Helper.<init>(cmd60.sc:3)
-      ammonite.$sess.cmd60$.<init>(cmd60.sc:7)
-      ammonite.$sess.cmd60$.<clinit>(cmd60.sc:-1)
-
+```
+scala.MatchError: None (of class scala.None$)
+    ammonite.$sess.cmd60$Helper.$anonfun$res60_1$1(cmd60.sc:3)
+    ammonite.$sess.cmd60$Helper.$anonfun$res60_1$1$adapted(cmd60.sc:3)
+    scala.collection.immutable.List.map(List.scala:297)
+    ammonite.$sess.cmd60$Helper.<init>(cmd60.sc:3)
+    ammonite.$sess.cmd60$.<init>(cmd60.sc:7)
+    ammonite.$sess.cmd60$.<clinit>(cmd60.sc:-1)
+```
 
 Y si ve que espera una función parcial, ahí eres tú el responsable de que esté bien creado, el compilador no puede hacer todo por tí.
 
