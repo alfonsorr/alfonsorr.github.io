@@ -26,8 +26,8 @@ stringExample match {
 
 
 
-    [36mstringExample[39m: [32mString[39m = [32m"hola"[39m
-    [36mres3_1[39m: [32mString[39m = [32m"saludos"[39m
+    <span style="color:cyan">stringExample</span>: <span style="color:green">String</span> = <span style="color:green">"hola"</span>
+    <span style="color:cyan">res3_1</span>: <span style="color:green">String</span> = <span style="color:green">"saludos"</span>
 
 
 
@@ -58,8 +58,8 @@ stringExample match {
 
 
 
-    [36mstringExample[39m: [32mString[39m = [32m"hola"[39m
-    [36mres4_1[39m: [32mString[39m = [32m"???"[39m
+    <span style="color:cyan">stringExample</span>: <span style="color:green">String</span> = <span style="color:green">"hola"</span>
+    <span style="color:cyan">res4_1</span>: <span style="color:green">String</span> = <span style="color:green">"???"</span>
 
 
 
@@ -92,10 +92,10 @@ stringExample2 match {
 
 
 
-    [36mstringExample1[39m: [32mString[39m = [32m"hola"[39m
-    [36mres5_1[39m: [32mString[39m = [32m"saludos"[39m
-    [36mstringExample2[39m: [32mString[39m = [32m"holi"[39m
-    [36mres5_3[39m: [32mString[39m = [32m"saludos"[39m
+    <span style="color:cyan">stringExample1</span>: <span style="color:green">String</span> = <span style="color:green">"hola"</span>
+    <span style="color:cyan">res5_1</span>: <span style="color:green">String</span> = <span style="color:green">"saludos"</span>
+    <span style="color:cyan">stringExample2</span>: <span style="color:green">String</span> = <span style="color:green">"holi"</span>
+    <span style="color:cyan">res5_3</span>: <span style="color:green">String</span> = <span style="color:green">"saludos"</span>
 
 
 
@@ -116,8 +116,8 @@ stringExample match {
 
 
 
-    [36mstringExample[39m: [32mString[39m = [32m"ya estoy"[39m
-    [36mres6_1[39m: [32mString[39m = [32m"el valor ya estoy no est\u00e1 contemplado"[39m
+    <span style="color:cyan">stringExample</span>: <span style="color:green">String</span> = <span style="color:green">"ya estoy"</span>
+    <span style="color:cyan">res6_1</span>: <span style="color:green">String</span> = <span style="color:green">"el valor ya estoy no est\u00e1 contemplado"</span>
 
 
 
@@ -142,9 +142,9 @@ stringExample match {
 
 
 
-    [36mx[39m: [32mString[39m = [32m"soy x"[39m
-    [36mstringExample[39m: [32mString[39m = [32m"ya estoy"[39m
-    [36mres7_2[39m: [32mString[39m = [32m"el valor ya estoy no est\u00e1 contemplado"[39m
+    <span style="color:cyan">x</span>: <span style="color:green">String</span> = <span style="color:green">"soy x"</span>
+    <span style="color:cyan">stringExample</span>: <span style="color:green">String</span> = <span style="color:green">"ya estoy"</span>
+    <span style="color:cyan">res7_2</span>: <span style="color:green">String</span> = <span style="color:green">"el valor ya estoy no est\u00e1 contemplado"</span>
 
 
 
@@ -168,9 +168,9 @@ stringExample match {
 
 
 
-    [36mx[39m: [32mString[39m = [32m"soy x"[39m
-    [36mstringExample[39m: [32mString[39m = [32m"soy x"[39m
-    [36mres8_2[39m: [32mString[39m = [32m"es el valor que ten\u00eda en x"[39m
+    <span style="color:cyan">x</span>: <span style="color:green">String</span> = <span style="color:green">"soy x"</span>
+    <span style="color:cyan">stringExample</span>: <span style="color:green">String</span> = <span style="color:green">"soy x"</span>
+    <span style="color:cyan">res8_2</span>: <span style="color:green">String</span> = <span style="color:green">"es el valor que ten\u00eda en x"</span>
 
 
 
@@ -192,9 +192,9 @@ stringExample2 match {
 
 
 
-    [36mx[39m: [32mString[39m = [32m"soy x"[39m
-    [36mstringExample2[39m: [32mString[39m = [32m"no soy x"[39m
-    [36mres9_2[39m: [32mString[39m = [32m"ninguno de los anteriores"[39m
+    <span style="color:cyan">x</span>: <span style="color:green">String</span> = <span style="color:green">"soy x"</span>
+    <span style="color:cyan">stringExample2</span>: <span style="color:green">String</span> = <span style="color:green">"no soy x"</span>
+    <span style="color:cyan">res9_2</span>: <span style="color:green">String</span> = <span style="color:green">"ninguno de los anteriores"</span>
 
 
 
@@ -216,9 +216,9 @@ stringExample match {
 
 
 
-    [36mX[39m: [32mString[39m = [32m"soy x"[39m
-    [36mstringExample[39m: [32mString[39m = [32m"soy x"[39m
-    [36mres10_2[39m: [32mString[39m = [32m"es el valor que ten\u00eda en x"[39m
+    <span style="color:cyan">X</span>: <span style="color:green">String</span> = <span style="color:green">"soy x"</span>
+    <span style="color:cyan">stringExample</span>: <span style="color:green">String</span> = <span style="color:green">"soy x"</span>
+    <span style="color:cyan">res10_2</span>: <span style="color:green">String</span> = <span style="color:green">"es el valor que ten\u00eda en x"</span>
 
 
 
@@ -238,9 +238,9 @@ stringExample2 match {
 
 
 
-    [36mX[39m: [32mString[39m = [32m"soy x"[39m
-    [36mstringExample2[39m: [32mString[39m = [32m"no soy x"[39m
-    [36mres11_2[39m: [32mString[39m = [32m"ninguno de los anteriores"[39m
+    <span style="color:cyan">X</span>: <span style="color:green">String</span> = <span style="color:green">"soy x"</span>
+    <span style="color:cyan">stringExample2</span>: <span style="color:green">String</span> = <span style="color:green">"no soy x"</span>
+    <span style="color:cyan">res11_2</span>: <span style="color:green">String</span> = <span style="color:green">"ninguno de los anteriores"</span>
 
 
 
@@ -261,8 +261,8 @@ stringExample2 match {
 
 
 
-    [36mstringExample2[39m: [32mString[39m = [32m"habana"[39m
-    [36mres12_1[39m: [32mString[39m = [32m"comienza por h"[39m
+    <span style="color:cyan">stringExample2</span>: <span style="color:green">String</span> = <span style="color:green">"habana"</span>
+    <span style="color:cyan">res12_1</span>: <span style="color:green">String</span> = <span style="color:green">"comienza por h"</span>
 
 
 
@@ -282,8 +282,8 @@ stringExample2 match {
 
 
 
-    [36mstringExample2[39m: [32mString[39m = [32m"habana"[39m
-    [36mres13_1[39m: [32mString[39m = [32m"comienza por h"[39m
+    <span style="color:cyan">stringExample2</span>: <span style="color:green">String</span> = <span style="color:green">"habana"</span>
+    <span style="color:cyan">res13_1</span>: <span style="color:green">String</span> = <span style="color:green">"comienza por h"</span>
 
 
 
@@ -311,7 +311,7 @@ def matchfun(x: Any): String =
 
 
 
-    defined [32mfunction[39m [36mmatchfun[39m
+    defined <span style="color:green">function</span> <span style="color:cyan">matchfun</span>
 
 
 
@@ -325,9 +325,9 @@ matchfun(12.4)
 
 
 
-    [36mres15_0[39m: [32mString[39m = [32m"tengo el string hola"[39m
-    [36mres15_1[39m: [32mString[39m = [32m"tengo el integer 42"[39m
-    [36mres15_2[39m: [32mString[39m = [32m"es otro tipo"[39m
+    <span style="color:cyan">res15_0</span>: <span style="color:green">String</span> = <span style="color:green">"tengo el string hola"</span>
+    <span style="color:cyan">res15_1</span>: <span style="color:green">String</span> = <span style="color:green">"tengo el integer 42"</span>
+    <span style="color:cyan">res15_2</span>: <span style="color:green">String</span> = <span style="color:green">"es otro tipo"</span>
 
 
 
@@ -346,7 +346,7 @@ def matchfun2(x: Any): String =
 
 
 
-    defined [32mfunction[39m [36mmatchfun2[39m
+    defined <span style="color:green">function</span> <span style="color:cyan">matchfun2</span>
 
 
 
@@ -360,9 +360,9 @@ matchfun2(12.4)
 
 
 
-    [36mres17_0[39m: [32mString[39m = [32m"tengo el string hola"[39m
-    [36mres17_1[39m: [32mString[39m = [32m"tengo el integer 42"[39m
-    [36mres17_2[39m: [32mString[39m = [32m"es otro tipo"[39m
+    <span style="color:cyan">res17_0</span>: <span style="color:green">String</span> = <span style="color:green">"tengo el string hola"</span>
+    <span style="color:cyan">res17_1</span>: <span style="color:green">String</span> = <span style="color:green">"tengo el integer 42"</span>
+    <span style="color:cyan">res17_2</span>: <span style="color:green">String</span> = <span style="color:green">"es otro tipo"</span>
 
 
 
@@ -393,7 +393,7 @@ def matchfun2(x: List[Any]): String =
 
 
 
-    defined [32mfunction[39m [36mmatchfun2[39m
+    defined <span style="color:green">function</span> <span style="color:cyan">matchfun2</span>
 
 
 
@@ -407,9 +407,9 @@ matchfun2(List(4.2f))
 
 
 
-    [36mres19_0[39m: [32mString[39m = [32m"tengo una lista de string de longitud 2"[39m
-    [36mres19_1[39m: [32mString[39m = [32m"tengo una lista de string de longitud 1"[39m
-    [36mres19_2[39m: [32mString[39m = [32m"tengo una lista de string de longitud 1"[39m
+    <span style="color:cyan">res19_0</span>: <span style="color:green">String</span> = <span style="color:green">"tengo una lista de string de longitud 2"</span>
+    <span style="color:cyan">res19_1</span>: <span style="color:green">String</span> = <span style="color:green">"tengo una lista de string de longitud 1"</span>
+    <span style="color:cyan">res19_2</span>: <span style="color:green">String</span> = <span style="color:green">"tengo una lista de string de longitud 1"</span>
 
 
 
@@ -427,7 +427,7 @@ case class Usuario(nombre: String, edad: Int)
 
 
 
-    defined [32mclass[39m [36mUsuario[39m
+    defined <span style="color:green">class</span> <span style="color:cyan">Usuario</span>
 
 
 
@@ -443,9 +443,9 @@ case class Jefe(nombre: String, subordinados: List[Trabajador]) extends Trabajad
 
 
 
-    defined [32mtrait[39m [36mTrabajador[39m
-    defined [32mclass[39m [36mCurrito[39m
-    defined [32mclass[39m [36mJefe[39m
+    defined <span style="color:green">trait</span> <span style="color:cyan">Trabajador</span>
+    defined <span style="color:green">class</span> <span style="color:cyan">Currito</span>
+    defined <span style="color:green">class</span> <span style="color:cyan">Jefe</span>
 
 
 
@@ -471,8 +471,8 @@ o match {
 
 
 
-    defined [32mfunction[39m [36mquienEs[39m
-    defined [32mfunction[39m [36mtengoDato[39m
+    defined <span style="color:green">function</span> <span style="color:cyan">quienEs</span>
+    defined <span style="color:green">function</span> <span style="color:cyan">tengoDato</span>
 
 
 
@@ -488,10 +488,10 @@ tengoDato(None)
 
 
 
-    [36mres23_0[39m: [32mString[39m = [32m"JM es jefe de 2 empleados"[39m
-    [36mres23_1[39m: [32mString[39m = [32m"Ar es un gran trabajador"[39m
-    [36mres23_2[39m: [32mString[39m = [32m"tenemos el valor 23"[39m
-    [36mres23_3[39m: [32mString[39m = [32m"no tenemos valor"[39m
+    <span style="color:cyan">res23_0</span>: <span style="color:green">String</span> = <span style="color:green">"JM es jefe de 2 empleados"</span>
+    <span style="color:cyan">res23_1</span>: <span style="color:green">String</span> = <span style="color:green">"Ar es un gran trabajador"</span>
+    <span style="color:cyan">res23_2</span>: <span style="color:green">String</span> = <span style="color:green">"tenemos el valor 23"</span>
+    <span style="color:cyan">res23_3</span>: <span style="color:green">String</span> = <span style="color:green">"no tenemos valor"</span>
 
 
 
@@ -513,7 +513,7 @@ def tuplaMatch(x: (String, Int)): String =
 
 
 
-    defined [32mfunction[39m [36mtuplaMatch[39m
+    defined <span style="color:green">function</span> <span style="color:cyan">tuplaMatch</span>
 
 
 
@@ -528,10 +528,10 @@ tuplaMatch(("adios", 42))
 
 
 
-    [36mres25_0[39m: [32mString[39m = [32m"hola con valor igual que 10"[39m
-    [36mres25_1[39m: [32mString[39m = [32m"hola con valor mayor que 10"[39m
-    [36mres25_2[39m: [32mString[39m = [32m"hola con valor menor a 10"[39m
-    [36mres25_3[39m: [32mString[39m = [32m"la palabra es adios con valor 42"[39m
+    <span style="color:cyan">res25_0</span>: <span style="color:green">String</span> = <span style="color:green">"hola con valor igual que 10"</span>
+    <span style="color:cyan">res25_1</span>: <span style="color:green">String</span> = <span style="color:green">"hola con valor mayor que 10"</span>
+    <span style="color:cyan">res25_2</span>: <span style="color:green">String</span> = <span style="color:green">"hola con valor menor a 10"</span>
+    <span style="color:cyan">res25_3</span>: <span style="color:green">String</span> = <span style="color:green">"la palabra es adios con valor 42"</span>
 
 
 
@@ -547,7 +547,7 @@ val tupla: (String, Int) = ("texto", 1)
 
 
 
-    [36mtupla[39m: ([32mString[39m, [32mInt[39m) = ([32m"texto"[39m, [32m1[39m)
+    <span style="color:cyan">tupla</span>: (<span style="color:green">String</span>, <span style="color:green">Int</span>) = (<span style="color:green">"texto"</span>, <span style="color:green">1</span>)
 
 
 
@@ -565,7 +565,7 @@ def tuplaMatch2(x: (String, Int)): String =
 
 
 
-    defined [32mfunction[39m [36mtuplaMatch2[39m
+    defined <span style="color:green">function</span> <span style="color:cyan">tuplaMatch2</span>
 
 
 
@@ -580,10 +580,10 @@ tuplaMatch(("adios", 42))
 
 
 
-    [36mres28_0[39m: [32mString[39m = [32m"hola con valor igual que 10"[39m
-    [36mres28_1[39m: [32mString[39m = [32m"hola con valor mayor que 10"[39m
-    [36mres28_2[39m: [32mString[39m = [32m"hola con valor menor a 10"[39m
-    [36mres28_3[39m: [32mString[39m = [32m"la palabra es adios con valor 42"[39m
+    <span style="color:cyan">res28_0</span>: <span style="color:green">String</span> = <span style="color:green">"hola con valor igual que 10"</span>
+    <span style="color:cyan">res28_1</span>: <span style="color:green">String</span> = <span style="color:green">"hola con valor mayor que 10"</span>
+    <span style="color:cyan">res28_2</span>: <span style="color:green">String</span> = <span style="color:green">"hola con valor menor a 10"</span>
+    <span style="color:cyan">res28_3</span>: <span style="color:green">String</span> = <span style="color:green">"la palabra es adios con valor 42"</span>
 
 
 
@@ -598,9 +598,9 @@ val (primero, segundo) = tupla
 
 
 
-    [36mtupla[39m: ([32mString[39m, [32mInt[39m) = ([32m"texto"[39m, [32m1[39m)
-    [36mprimero[39m: [32mString[39m = [32m"texto"[39m
-    [36msegundo[39m: [32mInt[39m = [32m1[39m
+    <span style="color:cyan">tupla</span>: (<span style="color:green">String</span>, <span style="color:green">Int</span>) = (<span style="color:green">"texto"</span>, <span style="color:green">1</span>)
+    <span style="color:cyan">primero</span>: <span style="color:green">String</span> = <span style="color:green">"texto"</span>
+    <span style="color:cyan">segundo</span>: <span style="color:green">Int</span> = <span style="color:green">1</span>
 
 
 
@@ -620,7 +620,7 @@ def tuplaAnyMatch(x: (Any, Any)): String =
 
 
 
-    defined [32mfunction[39m [36mtuplaAnyMatch[39m
+    defined <span style="color:green">function</span> <span style="color:cyan">tuplaAnyMatch</span>
 
 
 
@@ -635,10 +635,10 @@ tuplaAnyMatch((1, 42))
 
 
 
-    [36mres31_0[39m: [32mString[39m = [32m"dos strings primero: hola segundo: adios"[39m
-    [36mres31_1[39m: [32mString[39m = [32m"solo el primero es string: hola"[39m
-    [36mres31_2[39m: [32mString[39m = [32m"solo el segundo es string: adios"[39m
-    [36mres31_3[39m: [32mString[39m = [32m"ninguno es string"[39m
+    <span style="color:cyan">res31_0</span>: <span style="color:green">String</span> = <span style="color:green">"dos strings primero: hola segundo: adios"</span>
+    <span style="color:cyan">res31_1</span>: <span style="color:green">String</span> = <span style="color:green">"solo el primero es string: hola"</span>
+    <span style="color:cyan">res31_2</span>: <span style="color:green">String</span> = <span style="color:green">"solo el segundo es string: adios"</span>
+    <span style="color:cyan">res31_3</span>: <span style="color:green">String</span> = <span style="color:green">"ninguno es string"</span>
 
 
 
@@ -654,9 +654,9 @@ case class Jefe(nombre: String, subordinados: List[Trabajador]) extends Trabajad
 
 
 
-    defined [32mtrait[39m [36mTrabajador[39m
-    defined [32mclass[39m [36mCurrito[39m
-    defined [32mclass[39m [36mJefe[39m
+    defined <span style="color:green">trait</span> <span style="color:cyan">Trabajador</span>
+    defined <span style="color:green">class</span> <span style="color:cyan">Currito</span>
+    defined <span style="color:green">class</span> <span style="color:cyan">Jefe</span>
 
 
 
@@ -676,7 +676,7 @@ def dibujaJerarquia(t:Trabajador, nivel: Int = 0):Unit = {
 
 
 
-    defined [32mfunction[39m [36mdibujaJerarquia[39m
+    defined <span style="color:green">function</span> <span style="color:cyan">dibujaJerarquia</span>
 
 
 
@@ -705,12 +705,12 @@ dibujaJerarquia(empresa)
 
 
 
-    [36mempresa[39m: [32mJefe[39m = [33mJefe[39m(
-      [32m"A"[39m,
-      [33mList[39m(
-        [33mJefe[39m([32m"B"[39m, [33mList[39m([33mCurrito[39m([32m"C"[39m), [33mCurrito[39m([32m"D"[39m))),
-        [33mJefe[39m([32m"E"[39m, [33mList[39m([33mCurrito[39m([32m"F"[39m), [33mCurrito[39m([32m"G"[39m))),
-        [33mCurrito[39m([32m"H"[39m)
+    <span style="color:cyan">empresa</span>: <span style="color:green">Jefe</span> = <span style="color:yellow">Jefe</span>(
+      <span style="color:green">"A"</span>,
+      <span style="color:yellow">List</span>(
+        <span style="color:yellow">Jefe</span>(<span style="color:green">"B"</span>, <span style="color:yellow">List</span>(<span style="color:yellow">Currito</span>(<span style="color:green">"C"</span>), <span style="color:yellow">Currito</span>(<span style="color:green">"D"</span>))),
+        <span style="color:yellow">Jefe</span>(<span style="color:green">"E"</span>, <span style="color:yellow">List</span>(<span style="color:yellow">Currito</span>(<span style="color:green">"F"</span>), <span style="color:yellow">Currito</span>(<span style="color:green">"G"</span>))),
+        <span style="color:yellow">Currito</span>(<span style="color:green">"H"</span>)
       )
     )
 
@@ -741,7 +741,7 @@ object ValidIntString { // creamos el objeto que permitirá extraer el string si
 
 
 
-    defined [32mobject[39m [36mValidIntString[39m
+    defined <span style="color:green">object</span> <span style="color:cyan">ValidIntString</span>
 
 
 
@@ -763,8 +763,8 @@ Ahora podemos usar nuestro flamante nuevo extractor
 
 
 
-    [36mres36_0[39m: [32mString[39m = [32m"es un integer con valor 123"[39m
-    [36mres36_1[39m: [32mString[39m = [32m"no es integer"[39m
+    <span style="color:cyan">res36_0</span>: <span style="color:green">String</span> = <span style="color:green">"es un integer con valor 123"</span>
+    <span style="color:cyan">res36_1</span>: <span style="color:green">String</span> = <span style="color:green">"no es integer"</span>
 
 
 
@@ -786,7 +786,7 @@ object ValidIntStringWithDouble { // creamos el objeto que permitirá extraer el
 
 
 
-    defined [32mobject[39m [36mValidIntStringWithDouble[39m
+    defined <span style="color:green">object</span> <span style="color:cyan">ValidIntStringWithDouble</span>
 
 
 
@@ -806,8 +806,8 @@ object ValidIntStringWithDouble { // creamos el objeto que permitirá extraer el
 
 
 
-    [36mres38_0[39m: [32mString[39m = [32m"es un integer con valor 123 y su doble 246"[39m
-    [36mres38_1[39m: [32mString[39m = [32m"no es integer"[39m
+    <span style="color:cyan">res38_0</span>: <span style="color:green">String</span> = <span style="color:green">"es un integer con valor 123 y su doble 246"</span>
+    <span style="color:cyan">res38_1</span>: <span style="color:green">String</span> = <span style="color:green">"no es integer"</span>
 
 
 
@@ -835,7 +835,7 @@ object SplitDecimals { // creamos el objeto que permitirá extraer el string si 
 
 
 
-    defined [32mobject[39m [36mSplitDecimals[39m
+    defined <span style="color:green">object</span> <span style="color:cyan">SplitDecimals</span>
 
 
 
@@ -863,9 +863,9 @@ object SplitDecimals { // creamos el objeto que permitirá extraer el string si 
 
 
 
-    [36mres40_0[39m: [32mString[39m = [32m"es entero y tenemos 123 solo"[39m
-    [36mres40_1[39m: [32mString[39m = [32m"tiene decimales: 123 . 564537"[39m
-    [36mres40_2[39m: [32mString[39m = [32m"no es numerico"[39m
+    <span style="color:cyan">res40_0</span>: <span style="color:green">String</span> = <span style="color:green">"es entero y tenemos 123 solo"</span>
+    <span style="color:cyan">res40_1</span>: <span style="color:green">String</span> = <span style="color:green">"tiene decimales: 123 . 564537"</span>
+    <span style="color:cyan">res40_2</span>: <span style="color:green">String</span> = <span style="color:green">"no es numerico"</span>
 
 
 
@@ -883,7 +883,7 @@ object IsEaven {
 
 
 
-    defined [32mobject[39m [36mIsEaven[39m
+    defined <span style="color:green">object</span> <span style="color:cyan">IsEaven</span>
 
 
 
@@ -903,8 +903,8 @@ object IsEaven {
 
 
 
-    [36mres42_0[39m: [32mString[39m = [32m"el valor es par"[39m
-    [36mres42_1[39m: [32mString[39m = [32m"el valor es impar"[39m
+    <span style="color:cyan">res42_0</span>: <span style="color:green">String</span> = <span style="color:green">"el valor es par"</span>
+    <span style="color:cyan">res42_1</span>: <span style="color:green">String</span> = <span style="color:green">"el valor es impar"</span>
 
 
 
@@ -920,7 +920,7 @@ case class GreaterThan(c: Int) {
 
 
 
-    defined [32mclass[39m [36mGreaterThan[39m
+    defined <span style="color:green">class</span> <span style="color:cyan">GreaterThan</span>
 
 
 
@@ -942,9 +942,9 @@ val mayor45 = GreaterThan(45)
 
 
 
-    [36mmayor45[39m: [32mGreaterThan[39m = [33mGreaterThan[39m([32m45[39m)
-    [36mres44_1[39m: [32mString[39m = [32m"el valor es mayor que 45"[39m
-    [36mres44_2[39m: [32mString[39m = [32m"el valor es menor o igual"[39m
+    <span style="color:cyan">mayor45</span>: <span style="color:green">GreaterThan</span> = <span style="color:yellow">GreaterThan</span>(<span style="color:green">45</span>)
+    <span style="color:cyan">res44_1</span>: <span style="color:green">String</span> = <span style="color:green">"el valor es mayor que 45"</span>
+    <span style="color:cyan">res44_2</span>: <span style="color:green">String</span> = <span style="color:green">"el valor es menor o igual"</span>
 
 
 
@@ -970,9 +970,9 @@ val fecha = raw"(\d{4})-(\d{2})-(\d{2})".r
 
 
 
-    [36mfecha[39m: [32mscala[39m.[32mutil[39m.[32mmatching[39m.[32mRegex[39m = (\d{4})-(\d{2})-(\d{2})
-    [36mres45_1[39m: [32mString[39m = [32m"a\u00f1o: 2004, mes: 01, dia: 20"[39m
-    [36mres45_2[39m: [32mString[39m = [32m"no es una fecha"[39m
+    <span style="color:cyan">fecha</span>: <span style="color:green">scala</span>.<span style="color:green">util</span>.<span style="color:green">matching</span>.<span style="color:green">Regex</span> = (\d{4})-(\d{2})-(\d{2})
+    <span style="color:cyan">res45_1</span>: <span style="color:green">String</span> = <span style="color:green">"a\u00f1o: 2004, mes: 01, dia: 20"</span>
+    <span style="color:cyan">res45_2</span>: <span style="color:green">String</span> = <span style="color:green">"no es una fecha"</span>
 
 
 
@@ -1005,9 +1005,9 @@ List(1, 2, 3, 4) match {
 
 
 
-    [36mres46_0[39m: [32mString[39m = [32m"tiene tres elementos 1, 2, 3"[39m
-    [36mres46_1[39m: [32mString[39m = [32m"tiene solo un elemento 1"[39m
-    [36mres46_2[39m: [32mString[39m = [32m"tiene demasiados elementos, exactamente  4"[39m
+    <span style="color:cyan">res46_0</span>: <span style="color:green">String</span> = <span style="color:green">"tiene tres elementos 1, 2, 3"</span>
+    <span style="color:cyan">res46_1</span>: <span style="color:green">String</span> = <span style="color:green">"tiene solo un elemento 1"</span>
+    <span style="color:cyan">res46_2</span>: <span style="color:green">String</span> = <span style="color:green">"tiene demasiados elementos, exactamente  4"</span>
 
 
 
@@ -1028,8 +1028,8 @@ val fecha = raw"(\d{4})-(\d{2})-(\d{2})".r
 
 
 
-    [36mfecha[39m: [32mscala[39m.[32mutil[39m.[32mmatching[39m.[32mRegex[39m = (\d{4})-(\d{2})-(\d{2})
-    [36mres47_1[39m: [32mString[39m = [32m"a\u00f1o: 2004, mes: 01, dia: 20 original 2004-01-20"[39m
+    <span style="color:cyan">fecha</span>: <span style="color:green">scala</span>.<span style="color:green">util</span>.<span style="color:green">matching</span>.<span style="color:green">Regex</span> = (\d{4})-(\d{2})-(\d{2})
+    <span style="color:cyan">res47_1</span>: <span style="color:green">String</span> = <span style="color:green">"a\u00f1o: 2004, mes: 01, dia: 20 original 2004-01-20"</span>
 
 
 
@@ -1067,10 +1067,10 @@ dateStr match {
 
 
 
-    [36mfecha[39m: [32mscala[39m.[32mutil[39m.[32mmatching[39m.[32mRegex[39m = (\d{4})-(\d{2})-(\d{2})
-    [36manio19xx[39m: [32mscala[39m.[32mutil[39m.[32mmatching[39m.[32mRegex[39m = 19(\d{2})
-    [36manioEspecial[39m: [32mString[39m = [32m"2001"[39m
-    defined [32mfunction[39m [36mqueDiaEs[39m
+    <span style="color:cyan">fecha</span>: <span style="color:green">scala</span>.<span style="color:green">util</span>.<span style="color:green">matching</span>.<span style="color:green">Regex</span> = (\d{4})-(\d{2})-(\d{2})
+    <span style="color:cyan">anio19xx</span>: <span style="color:green">scala</span>.<span style="color:green">util</span>.<span style="color:green">matching</span>.<span style="color:green">Regex</span> = 19(\d{2})
+    <span style="color:cyan">anioEspecial</span>: <span style="color:green">String</span> = <span style="color:green">"2001"</span>
+    defined <span style="color:green">function</span> <span style="color:cyan">queDiaEs</span>
 
 
 
@@ -1090,15 +1090,15 @@ queDiaEs("2021")
 
 
 
-    [36mres49_0[39m: [32mString[39m = [32m"mi a\u00f1o especial :D"[39m
-    [36mres49_1[39m: [32mString[39m = [32m"feliz a\u00f1o nuevo!"[39m
-    [36mres49_2[39m: [32mString[39m = [32m"es a\u00f1o bisiesto 2020-02-29"[39m
-    [36mres49_3[39m: [32mString[39m = [32m"eso es muy viejo"[39m
-    [36mres49_4[39m: [32mString[39m = [32m"eso es muy viejo"[39m
-    [36mres49_5[39m: [32mString[39m = [32m"la fecha es capicua 20200202"[39m
-    [36mres49_6[39m: [32mString[39m = [32m"03 del 02 del a\u00f1o 95"[39m
-    [36mres49_7[39m: [32mString[39m = [32m"a\u00f1o: 2021, mes: 31, dia: 10"[39m
-    [36mres49_8[39m: [32mString[39m = [32m"no es una fecha"[39m
+    <span style="color:cyan">res49_0</span>: <span style="color:green">String</span> = <span style="color:green">"mi a\u00f1o especial :D"</span>
+    <span style="color:cyan">res49_1</span>: <span style="color:green">String</span> = <span style="color:green">"feliz a\u00f1o nuevo!"</span>
+    <span style="color:cyan">res49_2</span>: <span style="color:green">String</span> = <span style="color:green">"es a\u00f1o bisiesto 2020-02-29"</span>
+    <span style="color:cyan">res49_3</span>: <span style="color:green">String</span> = <span style="color:green">"eso es muy viejo"</span>
+    <span style="color:cyan">res49_4</span>: <span style="color:green">String</span> = <span style="color:green">"eso es muy viejo"</span>
+    <span style="color:cyan">res49_5</span>: <span style="color:green">String</span> = <span style="color:green">"la fecha es capicua 20200202"</span>
+    <span style="color:cyan">res49_6</span>: <span style="color:green">String</span> = <span style="color:green">"03 del 02 del a\u00f1o 95"</span>
+    <span style="color:cyan">res49_7</span>: <span style="color:green">String</span> = <span style="color:green">"a\u00f1o: 2021, mes: 31, dia: 10"</span>
+    <span style="color:cyan">res49_8</span>: <span style="color:green">String</span> = <span style="color:green">"no es una fecha"</span>
 
 
 
@@ -1123,7 +1123,7 @@ o match {
 
 
 
-    defined [32mfunction[39m [36mtengoDato[39m
+    defined <span style="color:green">function</span> <span style="color:cyan">tengoDato</span>
 
 
 
@@ -1160,7 +1160,7 @@ o match {
 
 
 
-    defined [32mfunction[39m [36mnoExhaustivo[39m
+    defined <span style="color:green">function</span> <span style="color:cyan">noExhaustivo</span>
 
 
 
@@ -1233,7 +1233,7 @@ val isEven: PartialFunction[Int, String] = new PartialFunction[Int, String]{
 
 
 
-    [36misEven[39m: [32mPartialFunction[39m[[32mInt[39m, [32mString[39m] = <function1>
+    <span style="color:cyan">isEven</span>: <span style="color:green">PartialFunction</span>[<span style="color:green">Int</span>, <span style="color:green">String</span>] = <function1>
 
 
 
@@ -1249,7 +1249,7 @@ val isEven: PartialFunction[Int, String] = {
 
 
 
-    [36misEven[39m: [32mPartialFunction[39m[[32mInt[39m, [32mString[39m] = <function1>
+    <span style="color:cyan">isEven</span>: <span style="color:green">PartialFunction</span>[<span style="color:green">Int</span>, <span style="color:green">String</span>] = <function1>
 
 
 
@@ -1265,7 +1265,7 @@ List(1, 2, 3, 4).collect(isEven)
 
 
 
-    [36mres56[39m: [32mList[39m[[32mString[39m] = [33mList[39m([32m"2 is even"[39m, [32m"4 is even"[39m)
+    <span style="color:cyan">res56</span>: <span style="color:green">List</span>[<span style="color:green">String</span>] = <span style="color:yellow">List</span>(<span style="color:green">"2 is even"</span>, <span style="color:green">"4 is even"</span>)
 
 
 
@@ -1289,10 +1289,10 @@ List(1, 2, 3, 4).map(pf)
 
 
 
-    [36misEven[39m: [32mPartialFunction[39m[[32mInt[39m, [32mString[39m] = <function1>
-    [36misOdd[39m: [32mPartialFunction[39m[[32mInt[39m, [32mString[39m] = <function1>
-    [36mpf[39m: [32mPartialFunction[39m[[32mInt[39m, [32mString[39m] = <function1>
-    [36mres57_3[39m: [32mList[39m[[32mString[39m] = [33mList[39m([32m"1 is odd"[39m, [32m"2 is even"[39m, [32m"3 is odd"[39m, [32m"4 is even"[39m)
+    <span style="color:cyan">isEven</span>: <span style="color:green">PartialFunction</span>[<span style="color:green">Int</span>, <span style="color:green">String</span>] = <function1>
+    <span style="color:cyan">isOdd</span>: <span style="color:green">PartialFunction</span>[<span style="color:green">Int</span>, <span style="color:green">String</span>] = <function1>
+    <span style="color:cyan">pf</span>: <span style="color:green">PartialFunction</span>[<span style="color:green">Int</span>, <span style="color:green">String</span>] = <function1>
+    <span style="color:cyan">res57_3</span>: <span style="color:green">List</span>[<span style="color:green">String</span>] = <span style="color:yellow">List</span>(<span style="color:green">"1 is odd"</span>, <span style="color:green">"2 is even"</span>, <span style="color:green">"3 is odd"</span>, <span style="color:green">"4 is even"</span>)
 
 
 
@@ -1318,8 +1318,8 @@ optval.map(x => x match {
 
 
 
-    [36moptval[39m: [32mSome[39m[[32mInt[39m] = [33mSome[39m([32m4[39m)
-    [36mres58_1[39m: [32mOption[39m[[32mString[39m] = [33mSome[39m([32m"es otro n\u00famero"[39m)
+    <span style="color:cyan">optval</span>: <span style="color:green">Some</span>[<span style="color:green">Int</span>] = <span style="color:yellow">Some</span>(<span style="color:green">4</span>)
+    <span style="color:cyan">res58_1</span>: <span style="color:green">Option</span>[<span style="color:green">String</span>] = <span style="color:yellow">Some</span>(<span style="color:green">"es otro n\u00famero"</span>)
 
 
 
@@ -1339,8 +1339,8 @@ optval.map{
 
 
 
-    [36moptval[39m: [32mSome[39m[[32mInt[39m] = [33mSome[39m([32m4[39m)
-    [36mres59_1[39m: [32mOption[39m[[32mString[39m] = [33mSome[39m([32m"es otro n\u00famero"[39m)
+    <span style="color:cyan">optval</span>: <span style="color:green">Some</span>[<span style="color:green">Int</span>] = <span style="color:yellow">Some</span>(<span style="color:green">4</span>)
+    <span style="color:cyan">res59_1</span>: <span style="color:green">Option</span>[<span style="color:green">String</span>] = <span style="color:yellow">Some</span>(<span style="color:green">"es otro n\u00famero"</span>)
 
 
 
@@ -1388,8 +1388,8 @@ foo.collect{
 
 
 
-    [36mfoo[39m: [32mList[39m[[32mOption[39m[[32mInt[39m]] = [33mList[39m([33mSome[39m([32m4[39m), [32mNone[39m, [33mSome[39m([32m1[39m))
-    [36mres61_1[39m: [32mList[39m[[32mInt[39m] = [33mList[39m([32m5[39m, [32m5[39m)
+    <span style="color:cyan">foo</span>: <span style="color:green">List</span>[<span style="color:green">Option</span>[<span style="color:green">Int</span>]] = <span style="color:yellow">List</span>(<span style="color:yellow">Some</span>(<span style="color:green">4</span>), <span style="color:green">None</span>, <span style="color:yellow">Some</span>(<span style="color:green">1</span>))
+    <span style="color:cyan">res61_1</span>: <span style="color:green">List</span>[<span style="color:green">Int</span>] = <span style="color:yellow">List</span>(<span style="color:green">5</span>, <span style="color:green">5</span>)
 
 
 
