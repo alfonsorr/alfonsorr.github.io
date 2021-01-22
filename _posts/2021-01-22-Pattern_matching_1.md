@@ -1,3 +1,11 @@
+---
+layout: post
+title: Pattern matching de la A a la Z
+author: Alfonso Roa
+intro: Todo lo que necesitas saber y nunca te atreviste a preguntar del pattern matching.
+intro_image_ratio: is-16by9
+---
+
 # ¿Que es el pattern matching?
 
 Una estructura de control, pensada para comprobar si un elemento cumple ciertas condiciones. Si no la conocías antes es similar en sintaxis a un `switch`, pero nos permite mayor precisión.
