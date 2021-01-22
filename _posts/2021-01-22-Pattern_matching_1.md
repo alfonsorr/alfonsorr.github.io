@@ -1,24 +1,4 @@
-Esto es para la versión de jupyter, permitimos que nos muestre los warnings de compilación que tenga un bloque de código. Tambíen indicamos que nos muestre los warnings por código inalcanzable. Pero shhh, son spoilers del post.
-
-
-```scala
-println("start")
-```
-
-    start
-
-
-
-```scala
-interp.configureCompiler(_.settings.nowarn.value = false)
-```
-
-
-```scala
-interp.configureCompiler(_.settings.warnDeadCode.value = true)
-```
-
-## ¿Que es el pattern matching?
+# ¿Que es el pattern matching?
 
 Una estructura de control, pensada para comprobar si un elemento cumple ciertas condiciones. Si no la conocías antes es similar en sintaxis a un `switch`, pero nos permite mayor precisión.
 Para aplicarlo solo necesitamos poner a continuación del elemento sobre el que queremos aplicarlo, la palabra reservada `match` e indicar cada uno de los casos que nos interesan.
