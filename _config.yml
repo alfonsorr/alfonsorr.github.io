@@ -17,6 +17,9 @@ plugins:
 
 livereload: true
 
+kramdown:
+  html_to_native: true
+
 defaults:
   -
     scope:
