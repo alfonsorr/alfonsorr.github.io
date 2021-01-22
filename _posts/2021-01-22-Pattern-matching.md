@@ -3,6 +3,7 @@ layout: post
 title: "Pattern matching de la A a la Z"
 author: Alfonso Roa
 intro: "Todo lo que necesitas saber y nunca te atreviste a preguntar del pattern matching."
+image: /img/pattern.jpg
 intro_image_ratio: is-16by9
 ---
 
