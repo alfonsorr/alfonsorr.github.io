@@ -1462,6 +1462,4 @@ Como habrás visto, el pattern matching es una herramienta que permite simplific
 En scala siempre ha sido una de sus caracteristicas estrella, y ha madurado mucho, tanto que en nuevas versiones solo tiene algunas mejoras para poder reutilizar algunos de sus elementos en más lugares.
 
 
-```scala
-
-```
+[Foto de portada de DLKR Life en Pexels](https://www.pexels.com/es-es/foto/hoja-de-metal-con-gota-de-patron-5676470/)
