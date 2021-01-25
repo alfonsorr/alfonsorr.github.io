@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Todo lo que necesitas saber y nunca te atreviste a preguntar del pattern matching."
+title: "Todo lo que quieres saber y nunca te atreviste a preguntar del pattern matching."
 author: Alfonso Roa
 intro: "Pattern matching de la A a la Z"
 image: /img/pattern.jpg
