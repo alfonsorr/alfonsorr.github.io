@@ -5,6 +5,7 @@ author: Alfonso Roa
 intro: "Pattern matching de la A a la Z"
 image: /img/pattern.jpg
 intro_image_ratio: is-16by9
+toc: true
 ---
 
 # ¿Que es el pattern matching?
