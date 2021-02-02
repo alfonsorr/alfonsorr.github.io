@@ -683,6 +683,7 @@ val empresa = Jefe("A", List(
 dibujaJerarquia(empresa)
 ```
 
+```
     - A 😎
       - B 😎
         - C 🧑‍🏭
@@ -691,10 +692,7 @@ dibujaJerarquia(empresa)
         - F 🧑‍🏭
         - G 🧑‍🏭
       - H 🧑‍🏭
-
-
-
-
+```
 
 <span style="color:cyan">empresa</span>: <span style="color:green">Jefe</span> = <span style="color:yellow">Jefe</span>(
 <span style="color:green">"A"</span>,
