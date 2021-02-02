@@ -758,3 +758,6 @@ Y como último apunte ya que hablamos de extractores, se permitirá su uso en lo
 ## Resumen final
 Conociendo que hacen los métodos unapply, o las funciones parciales podemos aplicar la herramienta adecuada en cada momento. Siempre con la intención de hacer un código legible y mantenible.
 En scala el `pattern matching` siempre ha sido una de sus caracteristicas estrella, y ha madurado mucho. Tanto que en nuevas versiones solo tiene algunas mejoras para poder reutilizar algunos de sus elementos en más lugares.
+
+## Repositorio
+Si prefieres leer este post en formato notebook, lo tienes subido en [github](https://github.com/alfonsorr/pattern-matching-post)
