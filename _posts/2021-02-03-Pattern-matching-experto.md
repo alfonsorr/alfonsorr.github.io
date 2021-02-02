@@ -8,7 +8,7 @@ intro_image_ratio: is-16by9
 toc: true
 ---
 
-## Conocimientos avanzados de pattern matching
+## Conocimientos avanzados de pattern matching
 En el anterior post ya vimos todas las posibilidades que nos ofrece el pattern matching para realizar nuestras condiciones. Ahora verás como puedes llevar esta herramienta a un nivel superior
 
 ## Bricomanía: crea tus propios extractores
